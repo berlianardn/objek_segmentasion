@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['apple', 'banana', 'orange']
+
+roboflow:
+  workspace: pawan-joshi-icz4m
+  project: fruitdataset-qo5mn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pawan-joshi-icz4m/fruitdataset-qo5mn/dataset/1
